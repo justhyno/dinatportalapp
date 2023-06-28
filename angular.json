@@ -77,7 +77,7 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
             "browserTarget": "dinatportal:build:development",
-            "port": 4200
+            "port": 9060
           },
           "configurations": {
             "production": {
@@ -104,6 +104,7 @@
       "path": "./target/angular/",
       "environment": "all"
     },
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "474b9c80-100d-4b73-a642-6ca60aea336b"
   }
 }
