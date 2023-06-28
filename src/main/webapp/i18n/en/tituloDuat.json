@@ -1,0 +1,32 @@
+{
+  "dinatportalApp": {
+    "tituloDuat": {
+      "home": {
+        "title": "Titulo Duats",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Titulo Duats found"
+      },
+      "detail": {
+        "title": "Titulo Duat"
+      },
+      "id": "ID",
+      "autorizacaoNumeroDocumento": "Autorizacao Numero Documento",
+      "nomeTitular": "Nome Titular",
+      "nacionalidade": "Nacionalidade",
+      "dataDespacho": "Data Despacho",
+      "parcelaNr": "Parcela Nr",
+      "area": "Area",
+      "processoNr": "Processo Nr",
+      "provincia": "Provincia",
+      "distrito": "Distrito",
+      "postoAdministrativo": "Posto Administrativo",
+      "finalidade": "Finalidade",
+      "prazo": "Prazo",
+      "servicoEmissior": "Servico Emissior",
+      "coodenadaX": "Coodenada X",
+      "coordenadaY": "Coordenada Y",
+      "partition": "",
+      "projecto": ""
+    }
+  }
+}

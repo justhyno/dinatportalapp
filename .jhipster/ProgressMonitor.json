@@ -1,0 +1,54 @@
+{
+  "changelogDate": "20220721213212",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "progress_monitor",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "current",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": 100,
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "alive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "step",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ProgressMonitor",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "progressMonitor",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

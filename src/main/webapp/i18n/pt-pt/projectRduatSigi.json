@@ -1,0 +1,29 @@
+{
+  "dinatportalApp": {
+    "projectRduatSigi": {
+      "home": {
+        "title": "Project Rduat Sigis",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Project Rduat Sigis encontrado"
+      },
+      "detail": {
+        "title": "Project Rduat Sigi"
+      },
+      "id": "ID",
+      "descricaoProjecto": "Descricao Projecto",
+      "projectCode": "Project Code",
+      "dataInicio": "Data Inicio",
+      "dataFimPrevisao": "Data Fim Previsao",
+      "dataFim": "Data Fim",
+      "dataPrevisaoInicio": "Data Previsao Inicio",
+      "spgcNome": "Spgc Nome",
+      "provedorServicoRduat": "Provedor Servico Rduat",
+      "reparticaoID": "Reparticao ID",
+      "provedorServicoCodigo": "Provedor Servico Codigo",
+      "localizacaoCodigo": "Localizacao Codigo",
+      "partition": "Partition",
+      "bloco": "Bloco",
+      "userGroup": "User Group"
+    }
+  }
+}

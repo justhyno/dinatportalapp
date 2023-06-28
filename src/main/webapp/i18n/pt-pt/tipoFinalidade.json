@@ -1,0 +1,27 @@
+{
+  "dinatportalApp": {
+    "tipoFinalidade": {
+      "home": {
+        "title": "Tipo Finalidades",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tipo Finalidade",
+        "createOrEditLabel": "Criar ou editar Tipo Finalidade",
+        "notFound": "Nenhum Tipo Finalidades encontrado"
+      },
+      "created": "Um novo Tipo Finalidade foi criado com o identificador {{ param }}",
+      "updated": "Tipo Finalidade com identificador {{ param }} foi actualizado",
+      "deleted": "Tipo Finalidade com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tipo Finalidade {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Finalidade"
+      },
+      "id": "ID",
+      "formaUso": "Forma Uso",
+      "sigla": "Sigla",
+      "isPrincipal": "Is Principal",
+      "tipoFormaUso": ""
+    }
+  }
+}

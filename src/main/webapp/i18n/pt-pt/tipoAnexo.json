@@ -1,0 +1,16 @@
+{
+  "dinatportalApp": {
+    "tipoAnexo": {
+      "home": {
+        "title": "Tipo Anexos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Tipo Anexos encontrado"
+      },
+      "detail": {
+        "title": "Tipo Anexo"
+      },
+      "id": "ID",
+      "description": "Description"
+    }
+  }
+}

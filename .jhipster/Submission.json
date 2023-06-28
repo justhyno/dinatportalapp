@@ -1,0 +1,283 @@
+{
+  "applications": "*",
+  "changelogDate": "20200803143559",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "embedded": false,
+  "enableEntityAudit": true,
+  "entityTableName": "submission",
+  "fields": [
+    {
+      "fieldName": "uuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titularNui",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titularDataNascimento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "titularEstadoCivil",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titularIdValidade",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "titularIdNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idEntidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titularAssinatura",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titularNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularIdentificationId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularPessoalNaturalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularPessoalGenero",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "autoridadeLocalAutoridadeLocal001",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularPessoalApelido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteApelido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteDocumento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tITULARMENOR",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "representanteRepresentanteIdEmissao",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "representanteRepresentanteDataNascimento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteNascimento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteNaturalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteId001",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteFrontal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteEstadoCivil",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteVitalicio",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "representanteRepresentanteNuit",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "localizacaoComunidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detalhesOcupacaoZonaexclusao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detalhesOcupacaoParcelaAcesso",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "identificacaoParcelaBlocoCodigo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "representanteRepresentanteIdValidade",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "detalhesOcupacaoFormaobtencao",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dadosTitularIdentificationIdVitalicio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularIdentificationIdEmissionDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "localizacaoProvincia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularIdentificationIdBack",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xformIdString",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dadosTitularIdentificationIdFrontal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detalhesOcupacaoOcupacaoAno",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "metaInstanceID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detalhesOcupacaoZONADEEXCLUSAO",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localizacaoLocalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "end",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "autoridadeLocalAutoridadeLocalAssinatura",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localizacaoContactContacto1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "identificacaoParcelaParcelaCodigo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "finalidadeFinalidadePedido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localizacaoDistrito",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "autoridadeLocalAutoridadeLocalFuncao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localizacaoAdministrativo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inquiridorDataLevantamento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "submissionTime",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detalhesOcupacaoACCESSOAPARCELA",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cotitular",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "finalidadeFinalidadePrincipal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inquiridorNomeInquiridor",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Submission",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "descricaoProjecto",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "submission",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    },
+    {
+      "otherEntityName": "validation",
+      "otherEntityRelationshipName": "submission",
+      "relationshipName": "validation",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "coTitular",
+      "otherEntityRelationshipName": "submission",
+      "relationshipName": "coTitular",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "attachments",
+      "otherEntityRelationshipName": "submission",
+      "relationshipName": "attachments",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

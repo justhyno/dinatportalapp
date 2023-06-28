@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20200803143659",
+  "clientRootFolder": "",
+  "dto": "mapstruct",
+  "embedded": false,
+  "enableEntityAudit": false,
+  "entityTableName": "attachments",
+  "fields": [
+    {
+      "fieldName": "mimetype",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "downloadSmallUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "downloadLargeUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "downloadUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "filename",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "instance",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "downloadMediumUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xform",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Attachments",
+  "pagination": "no",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "submission",
+      "otherEntityRelationshipName": "attachments",
+      "relationshipName": "submission",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

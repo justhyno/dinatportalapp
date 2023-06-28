@@ -1,0 +1,98 @@
+{
+  "changelogDate": "20220830212736",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": false,
+  "entityTableName": "titulo_duat",
+  "fields": [
+    {
+      "fieldName": "autorizacaoNumeroDocumento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomeTitular",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nacionalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataDespacho",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "parcelaNr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "area",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "processoNr",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "provincia",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "distrito",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postoAdministrativo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "finalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prazo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "servicoEmissior",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coodenadaX",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coordenadaY",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "TituloDuat",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "partition",
+      "otherEntityRelationshipName": "tituloDuat",
+      "relationshipName": "partition",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "descricaoProjecto",
+      "otherEntityName": "projectRduatSigit",
+      "otherEntityRelationshipName": "tituloDuat",
+      "relationshipName": "projecto",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

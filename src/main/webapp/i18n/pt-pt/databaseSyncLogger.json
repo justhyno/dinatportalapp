@@ -1,0 +1,19 @@
+{
+  "dinatportalApp": {
+    "databaseSyncLogger": {
+      "home": {
+        "title": "Database Sync Loggers",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Database Sync Loggers encontrado"
+      },
+      "detail": {
+        "title": "Database Sync Logger"
+      },
+      "id": "ID",
+      "lastSync": "Last Sync",
+      "status": "Status",
+      "summary": "Summary",
+      "agent": ""
+    }
+  }
+}

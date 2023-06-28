@@ -1,0 +1,43 @@
+{
+  "changelogDate": "20201017151349",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "user_extra",
+  "fields": [
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserExtra",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "id": true,
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "userExtra",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": ["required"],
+      "useJPADerivedIdentifier": true
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userGroup",
+      "otherEntityRelationshipName": "userExtra",
+      "relationshipName": "userGroup",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

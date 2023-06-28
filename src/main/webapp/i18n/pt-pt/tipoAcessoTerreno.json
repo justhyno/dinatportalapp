@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "tipoAcessoTerreno": {
+      "home": {
+        "title": "Tipo Acesso Terrenos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tipo Acesso Terreno",
+        "createOrEditLabel": "Criar ou editar Tipo Acesso Terreno",
+        "notFound": "Nenhum Tipo Acesso Terrenos encontrado"
+      },
+      "created": "Um novo Tipo Acesso Terreno foi criado com o identificador {{ param }}",
+      "updated": "Tipo Acesso Terreno com identificador {{ param }} foi actualizado",
+      "deleted": "Tipo Acesso Terreno com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tipo Acesso Terreno {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Acesso Terreno"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sigla": "Sigla"
+    }
+  }
+}

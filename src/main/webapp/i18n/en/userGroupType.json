@@ -1,0 +1,17 @@
+{
+  "dinatportalApp": {
+    "userGroupType": {
+      "home": {
+        "title": "User Group Types",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No User Group Types found"
+      },
+      "detail": {
+        "title": "User Group Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "active": "Active"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "changelogDate": "20200923141713",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "project_rduat_sigit",
+  "fields": [
+    {
+      "fieldName": "descricaoProjecto",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "projectCode",
+      "fieldType": "Long",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "provedorServicoRduat",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "provedorServicoRduatId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "localizacaoCodigo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "provincia",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ProjectRduatSigit",
+  "pagination": "infinite-scroll",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "partition",
+      "otherEntityRelationshipName": "projectRduatSigit",
+      "relationshipName": "partition",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

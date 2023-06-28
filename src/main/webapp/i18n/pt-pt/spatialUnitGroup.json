@@ -1,0 +1,28 @@
+{
+  "dinatportalApp": {
+    "spatialUnitGroup": {
+      "home": {
+        "title": "Spatial Unit Groups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Spatial Unit Group",
+        "createOrEditLabel": "Criar ou editar Spatial Unit Group",
+        "notFound": "Nenhum Spatial Unit Groups encontrado"
+      },
+      "created": "Um novo Spatial Unit Group foi criado com o identificador {{ param }}",
+      "updated": "Spatial Unit Group com identificador {{ param }} foi actualizado",
+      "deleted": "Spatial Unit Group com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Spatial Unit Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Spatial Unit Group"
+      },
+      "id": "ID",
+      "hierachy": "Hierachy",
+      "name": "Name",
+      "coordinateSystem": "Coordinate System",
+      "codigo": "Codigo",
+      "sHierarchy": ""
+    }
+  }
+}

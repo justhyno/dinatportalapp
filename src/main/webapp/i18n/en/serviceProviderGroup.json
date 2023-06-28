@@ -1,0 +1,26 @@
+{
+  "dinatportalApp": {
+    "serviceProviderGroup": {
+      "home": {
+        "title": "Service Provider Groups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Service Provider Group",
+        "createOrEditLabel": "Create or edit a Service Provider Group",
+        "notFound": "No Service Provider Groups found"
+      },
+      "created": "A new Service Provider Group is created with identifier {{ param }}",
+      "updated": "A Service Provider Group is updated with identifier {{ param }}",
+      "deleted": "A Service Provider Group is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Service Provider Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Service Provider Group"
+      },
+      "id": "ID",
+      "name": "Name",
+      "active": "Active",
+      "description": "Description"
+    }
+  }
+}

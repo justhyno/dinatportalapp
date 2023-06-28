@@ -1,0 +1,57 @@
+{
+  "changelogDate": "20201012184406",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": false,
+  "entityTableName": "validation",
+  "fields": [
+    {
+      "fieldName": "alphanumerical",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "geospatial",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "parcela",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bloco",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Validation",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "descricaoProjecto",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "validation",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    },
+    {
+      "otherEntityField": "identificacaoParcelaParcelaCodigo",
+      "otherEntityName": "submission",
+      "otherEntityRelationshipName": "validation",
+      "relationshipName": "submission",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

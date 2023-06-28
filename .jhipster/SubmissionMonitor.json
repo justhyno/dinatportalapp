@@ -1,0 +1,39 @@
+{
+  "changelogDate": "20201103160134",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "submission_monitor",
+  "fields": [
+    {
+      "fieldName": "bloco",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "parcela",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "project_code",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "success",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SubmissionMonitor",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

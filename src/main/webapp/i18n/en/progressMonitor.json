@@ -1,0 +1,30 @@
+{
+  "dinatportalApp": {
+    "progressMonitor": {
+      "home": {
+        "title": "Progress Monitors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Progress Monitor",
+        "createOrEditLabel": "Create or edit a Progress Monitor",
+        "notFound": "No Progress Monitors found"
+      },
+      "created": "A new Progress Monitor is created with identifier {{ param }}",
+      "updated": "A Progress Monitor is updated with identifier {{ param }}",
+      "deleted": "A Progress Monitor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Progress Monitor {{ id }}?"
+      },
+      "detail": {
+        "title": "Progress Monitor"
+      },
+      "id": "ID",
+      "description": "Description",
+      "current": "Current",
+      "alive": "Alive",
+      "type": "Type",
+      "total": "Total",
+      "step": "Step",
+      "projectRduat": ""
+    }
+  }
+}

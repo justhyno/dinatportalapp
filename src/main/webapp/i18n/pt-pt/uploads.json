@@ -1,0 +1,26 @@
+{
+  "dinatportalApp": {
+    "uploads": {
+      "home": {
+        "title": "Uploads",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Uploads",
+        "createOrEditLabel": "Criar ou editar Uploads",
+        "notFound": "Nenhum Uploads encontrado"
+      },
+      "created": "Um novo Uploads foi criado com o identificador {{ param }}",
+      "updated": "Uploads com identificador {{ param }} foi actualizado",
+      "deleted": "Uploads com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Uploads {{ id }}?"
+      },
+      "detail": {
+        "title": "Uploads"
+      },
+      "id": "ID",
+      "alpha": "Alpha",
+      "geo": "Geo",
+      "projectRduat": ""
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "changelogDate": "20201009220836",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "database_sync_logger",
+  "fields": [
+    {
+      "fieldName": "lastSync",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "summary",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "DatabaseSyncLogger",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "agent",
+      "otherEntityRelationshipName": "databaseSyncLogger",
+      "relationshipName": "agent",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

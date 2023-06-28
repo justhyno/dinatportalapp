@@ -1,0 +1,27 @@
+{
+  "dinatportalApp": {
+    "coTitular": {
+      "home": {
+        "title": "Co Titulars",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Co Titulars found"
+      },
+      "detail": {
+        "title": "Co Titular"
+      },
+      "id": "ID",
+      "assinatura": "Assinatura",
+      "genero": "Genero",
+      "naturalidade": "Naturalidade",
+      "dataNascimento": "Data Nascimento",
+      "estadoCivil": "Estado Civil",
+      "apelido": "Apelido",
+      "nome": "Nome",
+      "nrDocumento": "Nr Documento",
+      "documentoIdentificacao": "Documento Identificacao",
+      "docFrontal": "Doc Frontal",
+      "vitalicio": "Vitalicio",
+      "submission": ""
+    }
+  }
+}

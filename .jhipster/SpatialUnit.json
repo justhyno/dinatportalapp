@@ -1,0 +1,65 @@
+{
+  "changelogDate": "20200814191652",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "spatial_unit",
+  "fields": [
+    {
+      "fieldName": "areaSize",
+      "fieldType": "Float",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "label",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dimention",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "volumeSize",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "number",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "surfaceRelation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "hierachy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sHierachy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "codigo",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "coordinateSystem",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "SpatialUnit",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

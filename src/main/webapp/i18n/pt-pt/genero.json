@@ -1,0 +1,18 @@
+{
+  "dinatportalApp": {
+    "genero": {
+      "home": {
+        "title": "Generos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Generos encontrado"
+      },
+      "detail": {
+        "title": "Genero"
+      },
+      "id": "ID",
+      "name": "Name",
+      "active": "Active",
+      "ord": "Ord"
+    }
+  }
+}

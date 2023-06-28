@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "tipoRelacao": {
+      "home": {
+        "title": "Tipo Relacaos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tipo Relacao",
+        "createOrEditLabel": "Criar ou editar Tipo Relacao",
+        "notFound": "Nenhum Tipo Relacaos encontrado"
+      },
+      "created": "Um novo Tipo Relacao foi criado com o identificador {{ param }}",
+      "updated": "Tipo Relacao com identificador {{ param }} foi actualizado",
+      "deleted": "Tipo Relacao com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tipo Relacao {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Relacao"
+      },
+      "id": "ID",
+      "designacao": "Designacao",
+      "sigla": "Sigla"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dinatportalApp": {
+    "fileInfo": {
+      "home": {
+        "title": "File Infos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum File Infos encontrado"
+      },
+      "detail": {
+        "title": "File Info"
+      },
+      "id": "ID",
+      "fileName": "File Name",
+      "size": "Size",
+      "createdDate": "Created Date",
+      "path": "Path"
+    }
+  }
+}

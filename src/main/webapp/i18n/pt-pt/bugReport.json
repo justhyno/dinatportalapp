@@ -1,0 +1,27 @@
+{
+  "dinatportalApp": {
+    "bugReport": {
+      "home": {
+        "title": "Bug Reports",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Bug Report",
+        "createOrEditLabel": "Criar ou editar Bug Report",
+        "notFound": "Nenhum Bug Reports encontrado"
+      },
+      "created": "Um novo Bug Report foi criado com o identificador {{ param }}",
+      "updated": "Bug Report com identificador {{ param }} foi actualizado",
+      "deleted": "Bug Report com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Bug Report {{ id }}?"
+      },
+      "detail": {
+        "title": "Bug Report"
+      },
+      "id": "ID",
+      "tipo": "Tipo",
+      "descricao": "Descricao",
+      "bugType": "",
+      "projectRduat": ""
+    }
+  }
+}

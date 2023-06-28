@@ -1,0 +1,29 @@
+{
+  "changelogDate": "20200818184805",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "tipo_documento_identificacao",
+  "fields": [
+    {
+      "fieldName": "designacao",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "sigla",
+      "fieldType": "String",
+      "fieldValidateRules": ["pattern"],
+      "fieldValidateRulesPattern": "\\b[A-Z].{1,2}"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "TipoDocumentoIdentificacao",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

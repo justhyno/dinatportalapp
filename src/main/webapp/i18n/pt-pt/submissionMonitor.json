@@ -1,0 +1,20 @@
+{
+  "dinatportalApp": {
+    "submissionMonitor": {
+      "home": {
+        "title": "Submission Monitors",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Submission Monitors encontrado"
+      },
+      "detail": {
+        "title": "Submission Monitor"
+      },
+      "id": "ID",
+      "bloco": "Bloco",
+      "parcela": "Parcela",
+      "estado": "Estado",
+      "project_code": "Project Code",
+      "success": "Success"
+    }
+  }
+}

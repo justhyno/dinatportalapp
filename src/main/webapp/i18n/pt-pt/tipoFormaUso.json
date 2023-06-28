@@ -1,0 +1,16 @@
+{
+  "dinatportalApp": {
+    "tipoFormaUso": {
+      "home": {
+        "title": "Tipo Forma Usos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Tipo Forma Usos encontrado"
+      },
+      "detail": {
+        "title": "Tipo Forma Uso"
+      },
+      "id": "ID",
+      "description": "Description"
+    }
+  }
+}

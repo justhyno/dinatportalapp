@@ -1,0 +1,17 @@
+{
+  "dinatportalApp": {
+    "sigitSubmission": {
+      "home": {
+        "title": "Sigit Submissions",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Sigit Submissions found"
+      },
+      "detail": {
+        "title": "Sigit Submission"
+      },
+      "id": "ID",
+      "username": "Username",
+      "password": "Password"
+    }
+  }
+}

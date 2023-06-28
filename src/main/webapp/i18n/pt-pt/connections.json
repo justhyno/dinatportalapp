@@ -1,0 +1,29 @@
+{
+  "dinatportalApp": {
+    "connections": {
+      "home": {
+        "title": "Connections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Connections",
+        "createOrEditLabel": "Criar ou editar Connections",
+        "notFound": "Nenhum Connections encontrado"
+      },
+      "created": "Um novo Connections foi criado com o identificador {{ param }}",
+      "updated": "Connections com identificador {{ param }} foi actualizado",
+      "deleted": "Connections com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Connections {{ id }}?"
+      },
+      "detail": {
+        "title": "Connections"
+      },
+      "id": "ID",
+      "ip": "Ip",
+      "name": "Name",
+      "port": "Port",
+      "username": "Username",
+      "password": "Password",
+      "status": "Status"
+    }
+  }
+}

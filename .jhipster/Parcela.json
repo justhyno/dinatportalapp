@@ -1,0 +1,40 @@
+{
+  "changelogDate": "20200813194735",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "parcela",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Parcela",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "code",
+      "otherEntityName": "bloco",
+      "otherEntityRelationshipName": "parcela",
+      "relationshipName": "bloco",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": []
+    },
+    {
+      "otherEntityName": "titular",
+      "otherEntityRelationshipName": "parcela",
+      "relationshipName": "titular",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

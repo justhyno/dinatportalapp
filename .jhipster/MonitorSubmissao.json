@@ -1,0 +1,35 @@
+{
+  "changelogDate": "20201111175650",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": false,
+  "entityTableName": "monitor_submissao",
+  "fields": [
+    {
+      "fieldName": "valor",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "texto",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "MonitorSubmissao",
+  "pagination": "no",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "monitorSubmissao",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

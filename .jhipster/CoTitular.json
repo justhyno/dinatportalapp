@@ -1,0 +1,73 @@
+{
+  "changelogDate": "20201023080929",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "co_titular",
+  "fields": [
+    {
+      "fieldName": "assinatura",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "genero",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "naturalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataNascimento",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "estadoCivil",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apelido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nrDocumento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentoIdentificacao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docFrontal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vitalicio",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CoTitular",
+  "pagination": "no",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "identificacaoParcelaParcelaCodigo",
+      "otherEntityName": "submission",
+      "otherEntityRelationshipName": "coTitular",
+      "relationshipName": "submission",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

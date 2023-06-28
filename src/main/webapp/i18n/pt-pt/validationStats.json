@@ -1,0 +1,27 @@
+{
+  "dinatportalApp": {
+    "validationStats": {
+      "home": {
+        "title": "Validation Stats",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Validation Stats",
+        "createOrEditLabel": "Criar ou editar Validation Stats",
+        "notFound": "Nenhum Validation Stats encontrado"
+      },
+      "created": "Um novo Validation Stats foi criado com o identificador {{ param }}",
+      "updated": "Validation Stats com identificador {{ param }} foi actualizado",
+      "deleted": "Validation Stats com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Validation Stats {{ id }}?"
+      },
+      "detail": {
+        "title": "Validation Stats"
+      },
+      "id": "ID",
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "total": "Total",
+      "doubled": "Doubled"
+    }
+  }
+}

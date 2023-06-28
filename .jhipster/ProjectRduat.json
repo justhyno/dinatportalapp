@@ -1,0 +1,116 @@
+{
+  "changelogDate": "20200802230843",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "project_rduat",
+  "fields": [
+    {
+      "fieldName": "descricaoProjecto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "projectCode",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required", "unique", "min", "max"],
+      "fieldValidateRulesMax": "14",
+      "fieldValidateRulesMin": "6"
+    },
+    {
+      "fieldName": "dataInicio",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "dataFimPrevisao",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dataFim",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dataPrevisaoInicio",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "spgcNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "provedorServicoRduat",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reparticaoID",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "provedorServicoCodigo",
+      "fieldType": "Long",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "14",
+      "fieldValidateRulesMin": "6"
+    },
+    {
+      "fieldName": "localizacaoCodigo",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required", "min", "max"],
+      "fieldValidateRulesMax": "14",
+      "fieldValidateRulesMin": "6"
+    },
+    {
+      "fieldName": "utmZone",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "3037",
+      "fieldValidateRulesMin": "3036"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "ProjectRduat",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "partition",
+      "otherEntityRelationshipName": "projectRduat",
+      "relationshipName": "partition",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": []
+    },
+    {
+      "otherEntityField": "code",
+      "otherEntityName": "bloco",
+      "otherEntityRelationshipName": "projectRduat",
+      "relationshipName": "bloco",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": []
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userGroup",
+      "otherEntityRelationshipName": "projectRduat",
+      "ownerSide": true,
+      "relationshipName": "userGroup",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "projectRduat",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

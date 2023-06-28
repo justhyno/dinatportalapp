@@ -1,0 +1,47 @@
+{
+  "changelogDate": "20200827115459",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "token_provider",
+  "fields": [
+    {
+      "fieldName": "token",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "projectHash",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "TokenProvider",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "serviceProvider",
+      "otherEntityRelationshipName": "tokenProvider",
+      "relationshipName": "serviceProvider",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "id": true,
+      "otherEntityField": "descricaoProjecto",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "tokenProvider",
+      "ownerSide": true,
+      "relationshipName": "projectRduat",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one",
+      "useJPADerivedIdentifier": true
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

@@ -1,0 +1,29 @@
+{
+  "dinatportalApp": {
+    "blocoRduat": {
+      "home": {
+        "title": "Bloco Rduats",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Bloco Rduat",
+        "createOrEditLabel": "Create or edit a Bloco Rduat",
+        "notFound": "No Bloco Rduats found"
+      },
+      "created": "A new Bloco Rduat is created with identifier {{ param }}",
+      "updated": "A Bloco Rduat is updated with identifier {{ param }}",
+      "deleted": "A Bloco Rduat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Bloco Rduat {{ id }}?"
+      },
+      "detail": {
+        "title": "Bloco Rduat"
+      },
+      "id": "ID",
+      "codigo": "Codigo",
+      "pointX": "Point X",
+      "pointY": "Point Y",
+      "vertexIndex": "Vertex Index",
+      "zone": "Zone",
+      "projectRduat": ""
+    }
+  }
+}

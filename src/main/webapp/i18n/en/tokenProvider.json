@@ -1,0 +1,26 @@
+{
+  "dinatportalApp": {
+    "tokenProvider": {
+      "home": {
+        "title": "Token Providers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Token Provider",
+        "createOrEditLabel": "Create or edit a Token Provider",
+        "notFound": "No Token Providers found"
+      },
+      "created": "A new Token Provider is created with identifier {{ param }}",
+      "updated": "A Token Provider is updated with identifier {{ param }}",
+      "deleted": "A Token Provider is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Token Provider {{ id }}?"
+      },
+      "detail": {
+        "title": "Token Provider"
+      },
+      "token": "Token",
+      "projectHash": "Project Hash",
+      "serviceProvider": "",
+      "projectRduat": ""
+    }
+  }
+}

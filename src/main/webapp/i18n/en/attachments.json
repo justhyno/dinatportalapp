@@ -1,0 +1,24 @@
+{
+  "dinatportalApp": {
+    "attachments": {
+      "home": {
+        "title": "Attachments",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Attachments found"
+      },
+      "detail": {
+        "title": "Attachments"
+      },
+      "id": "ID",
+      "mimetype": "Mimetype",
+      "downloadSmallUrl": "Download Small Url",
+      "downloadLargeUrl": "Download Large Url",
+      "downloadUrl": "Download Url",
+      "filename": "Filename",
+      "instance": "Instance",
+      "downloadMediumUrl": "Download Medium Url",
+      "xform": "Xform",
+      "submission": ""
+    }
+  }
+}

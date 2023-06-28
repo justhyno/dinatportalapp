@@ -1,0 +1,21 @@
+{
+  "dinatportalApp": {
+    "duatReport": {
+      "home": {
+        "title": "Duat Reports",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Duat Reports encontrado"
+      },
+      "detail": {
+        "title": "Duat Report"
+      },
+      "id": "ID",
+      "provincia": "Provincia",
+      "genero": "Genero",
+      "provedor": "Provedor",
+      "value": "Value",
+      "distrito": "Distrito",
+      "levantados": "Levantados"
+    }
+  }
+}

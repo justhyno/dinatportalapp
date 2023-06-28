@@ -1,0 +1,27 @@
+{
+  "dinatportalApp": {
+    "partition": {
+      "home": {
+        "title": "Partitions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Partition",
+        "createOrEditLabel": "Criar ou editar Partition",
+        "notFound": "Nenhum Partitions encontrado"
+      },
+      "created": "Um novo Partition foi criado com o identificador {{ param }}",
+      "updated": "Partition com identificador {{ param }} foi actualizado",
+      "deleted": "Partition com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Partition {{ id }}?"
+      },
+      "detail": {
+        "title": "Partition"
+      },
+      "id": "ID",
+      "name": "Name",
+      "code": "Code",
+      "active": "Active",
+      "userGroup": ""
+    }
+  }
+}

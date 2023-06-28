@@ -1,0 +1,17 @@
+{
+  "dinatportalApp": {
+    "estadoCivil": {
+      "home": {
+        "title": "Estado Civils",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Estado Civils found"
+      },
+      "detail": {
+        "title": "Estado Civil"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sigla": "Sigla"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dinatportalApp": {
+    "tipoFuncao": {
+      "home": {
+        "title": "Tipo Funcaos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Tipo Funcaos encontrado"
+      },
+      "detail": {
+        "title": "Tipo Funcao"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sigla": "Sigla"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "changelogDate": "20200814192431",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "spatial_unit_group",
+  "fields": [
+    {
+      "fieldName": "hierachy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coordinateSystem",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codigo",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SpatialUnitGroup",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "spatialUnitGroup",
+      "otherEntityRelationshipName": "spatialUnitGroup",
+      "relationshipName": "sHierarchy",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

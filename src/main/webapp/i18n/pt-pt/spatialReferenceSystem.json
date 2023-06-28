@@ -1,0 +1,15 @@
+{
+  "dinatportalApp": {
+    "spatialReferenceSystem": {
+      "home": {
+        "title": "Spatial Reference Systems",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Spatial Reference Systems encontrado"
+      },
+      "detail": {
+        "title": "Spatial Reference System"
+      },
+      "id": "ID"
+    }
+  }
+}

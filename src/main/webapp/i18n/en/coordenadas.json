@@ -1,0 +1,29 @@
+{
+  "dinatportalApp": {
+    "coordenadas": {
+      "home": {
+        "title": "Coordenadas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Coordenadas",
+        "createOrEditLabel": "Create or edit a Coordenadas",
+        "notFound": "No Coordenadas found"
+      },
+      "created": "A new Coordenadas is created with identifier {{ param }}",
+      "updated": "A Coordenadas is updated with identifier {{ param }}",
+      "deleted": "A Coordenadas is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Coordenadas {{ id }}?"
+      },
+      "detail": {
+        "title": "Coordenadas"
+      },
+      "id": "ID",
+      "pointX": "Point X",
+      "pointY": "Point Y",
+      "codigo": "Codigo",
+      "tipo": "Tipo",
+      "epsg": "Epsg",
+      "projectRduat": ""
+    }
+  }
+}

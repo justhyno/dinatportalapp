@@ -1,0 +1,22 @@
+{
+  "dinatportalApp": {
+    "projectRduatSigit": {
+      "home": {
+        "title": "Project Rduat Sigits",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Project Rduat Sigits found"
+      },
+      "detail": {
+        "title": "Project Rduat Sigit"
+      },
+      "id": "ID",
+      "descricaoProjecto": "Descricao Projecto",
+      "projectCode": "Project Code",
+      "provedorServicoRduat": "Provedor Servico Rduat",
+      "provedorServicoRduatId": "Provedor Servico Rduat Id",
+      "localizacaoCodigo": "Localizacao Codigo",
+      "provincia": "Provincia",
+      "partition": ""
+    }
+  }
+}

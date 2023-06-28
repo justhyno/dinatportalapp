@@ -1,0 +1,43 @@
+{
+  "changelogDate": "20220906160212",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": false,
+  "entityTableName": "report_submission",
+  "fields": [
+    {
+      "fieldName": "dportal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sigit",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bloco",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ReportSubmission",
+  "pagination": "infinite-scroll",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "reportSubmission",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

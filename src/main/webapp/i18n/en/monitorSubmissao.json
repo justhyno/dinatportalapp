@@ -1,0 +1,18 @@
+{
+  "dinatportalApp": {
+    "monitorSubmissao": {
+      "home": {
+        "title": "Monitor Submissaos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Monitor Submissaos found"
+      },
+      "detail": {
+        "title": "Monitor Submissao"
+      },
+      "id": "ID",
+      "valor": "Valor",
+      "texto": "Texto",
+      "projectRduat": ""
+    }
+  }
+}

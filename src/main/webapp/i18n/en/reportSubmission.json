@@ -1,0 +1,20 @@
+{
+  "dinatportalApp": {
+    "reportSubmission": {
+      "home": {
+        "title": "Report Submissions",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Report Submissions found"
+      },
+      "detail": {
+        "title": "Report Submission"
+      },
+      "id": "ID",
+      "dportal": "Dportal",
+      "sigit": "Sigit",
+      "bloco": "Bloco",
+      "lastUpdate": "Last Update",
+      "projectRduat": ""
+    }
+  }
+}

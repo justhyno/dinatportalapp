@@ -1,0 +1,44 @@
+{
+  "dinatportalApp": {
+    "titular": {
+      "home": {
+        "title": "Titulars",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Titular",
+        "createOrEditLabel": "Create or edit a Titular",
+        "notFound": "No Titulars found"
+      },
+      "created": "A new Titular is created with identifier {{ param }}",
+      "updated": "A Titular is updated with identifier {{ param }}",
+      "deleted": "A Titular is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Titular {{ id }}?"
+      },
+      "detail": {
+        "title": "Titular"
+      },
+      "id": "ID",
+      "estadoCivil": "Estado Civil",
+      "idValidade": "Id Validade",
+      "idNumero": "Id Numero",
+      "assinatura": "Assinatura",
+      "nome": "Nome",
+      "apelido": "Apelido",
+      "naturalidade": "Naturalidade",
+      "menor": "Menor",
+      "reprsentante": "Reprsentante",
+      "tipoDocumentoIdentificacao": "Tipo Documento Identificacao",
+      "dataNascimento": "Data Nascimento",
+      "genero": "Genero",
+      "profissao": "Profissao",
+      "provincia": "Provincia",
+      "distrito": "Distrito",
+      "postoAdministrativo": "Posto Administrativo",
+      "localidade": "Localidade",
+      "telefone1": "Telefone 1",
+      "telefone2": "Telefone 2",
+      "localEmissao": "Local Emissao",
+      "parcela": ""
+    }
+  }
+}

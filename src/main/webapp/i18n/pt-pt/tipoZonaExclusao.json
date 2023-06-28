@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "tipoZonaExclusao": {
+      "home": {
+        "title": "Tipo Zona Exclusaos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tipo Zona Exclusao",
+        "createOrEditLabel": "Criar ou editar Tipo Zona Exclusao",
+        "notFound": "Nenhum Tipo Zona Exclusaos encontrado"
+      },
+      "created": "Um novo Tipo Zona Exclusao foi criado com o identificador {{ param }}",
+      "updated": "Tipo Zona Exclusao com identificador {{ param }} foi actualizado",
+      "deleted": "Tipo Zona Exclusao com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tipo Zona Exclusao {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Zona Exclusao"
+      },
+      "id": "ID",
+      "designacao": "Designacao",
+      "sigla": "Sigla"
+    }
+  }
+}

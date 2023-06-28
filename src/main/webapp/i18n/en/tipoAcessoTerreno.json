@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "tipoAcessoTerreno": {
+      "home": {
+        "title": "Tipo Acesso Terrenos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tipo Acesso Terreno",
+        "createOrEditLabel": "Create or edit a Tipo Acesso Terreno",
+        "notFound": "No Tipo Acesso Terrenos found"
+      },
+      "created": "A new Tipo Acesso Terreno is created with identifier {{ param }}",
+      "updated": "A Tipo Acesso Terreno is updated with identifier {{ param }}",
+      "deleted": "A Tipo Acesso Terreno is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tipo Acesso Terreno {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Acesso Terreno"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sigla": "Sigla"
+    }
+  }
+}

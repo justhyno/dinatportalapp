@@ -1,0 +1,58 @@
+{
+  "changelogDate": "20210308101838",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "geometry_data",
+  "fields": [
+    {
+      "fieldName": "label",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fromSigit",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "sync",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "archived",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "crs",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "feature",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "GeometryData",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "geometryData",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

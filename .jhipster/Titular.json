@@ -1,0 +1,109 @@
+{
+  "changelogDate": "20200819140342",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": true,
+  "entityTableName": "titular",
+  "fields": [
+    {
+      "fieldName": "estadoCivil",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idValidade",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "idNumero",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assinatura",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apelido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "naturalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "menor",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "reprsentante",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoDocumentoIdentificacao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataNascimento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "genero",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "profissao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "provincia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "distrito",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postoAdministrativo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefone1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefone2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localEmissao",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Titular",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "parcela",
+      "otherEntityRelationshipName": "titular",
+      "relationshipName": "parcela",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

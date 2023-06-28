@@ -1,0 +1,18 @@
+{
+  "dinatportalApp": {
+    "tipoFormaAquisicao": {
+      "home": {
+        "title": "Tipo Forma Aquisicaos",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Tipo Forma Aquisicaos encontrado"
+      },
+      "detail": {
+        "title": "Tipo Forma Aquisicao"
+      },
+      "id": "ID",
+      "description": "Description",
+      "active": "Active",
+      "sigla": "Sigla"
+    }
+  }
+}

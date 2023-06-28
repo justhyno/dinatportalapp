@@ -1,0 +1,20 @@
+{
+  "dinatportalApp": {
+    "geoData": {
+      "home": {
+        "title": "Geo Data",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Geo Data found"
+      },
+      "detail": {
+        "title": "Geo Data"
+      },
+      "id": "ID",
+      "name": "Name",
+      "x": "X",
+      "y": "Y",
+      "status": "Status",
+      "projectRduat": ""
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dinatportalApp": {
+    "koboProject": {
+      "home": {
+        "title": "Kobo Projects",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Kobo Projects found"
+      },
+      "detail": {
+        "title": "Kobo Project"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "lastUpdate": "Last Update",
+      "submission": "Submission",
+      "hash": "Hash"
+    }
+  }
+}

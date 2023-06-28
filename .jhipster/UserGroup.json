@@ -1,0 +1,89 @@
+{
+  "changelogDate": "20200903092506",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "user_group",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "dinatUser",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isServiceProvider",
+      "fieldType": "Boolean",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "isSpgc",
+      "fieldType": "Boolean",
+      "fieldValidateRules": []
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "UserGroup",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "userGroup",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "userGroup",
+      "ownerSide": false,
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "serviceProviderSigit",
+      "otherEntityRelationshipName": "userGroup",
+      "ownerSide": true,
+      "relationshipName": "serviceProviderSigit",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "id": true,
+      "otherEntityField": "name",
+      "otherEntityName": "partition",
+      "otherEntityRelationshipName": "userGroup",
+      "ownerSide": true,
+      "relationshipName": "partition",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": [],
+      "useJPADerivedIdentifier": true
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userGroupType",
+      "otherEntityRelationshipName": "userGroup",
+      "relationshipName": "userGroupType",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

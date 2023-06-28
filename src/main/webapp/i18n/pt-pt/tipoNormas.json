@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "tipoNormas": {
+      "home": {
+        "title": "Tipo Normas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tipo Normas",
+        "createOrEditLabel": "Criar ou editar Tipo Normas",
+        "notFound": "Nenhum Tipo Normas encontrado"
+      },
+      "created": "Um novo Tipo Normas foi criado com o identificador {{ param }}",
+      "updated": "Tipo Normas com identificador {{ param }} foi actualizado",
+      "deleted": "Tipo Normas com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tipo Normas {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Normas"
+      },
+      "id": "ID",
+      "designacao": "Designacao",
+      "sigla": "Sigla"
+    }
+  }
+}

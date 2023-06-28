@@ -1,0 +1,20 @@
+{
+  "dinatportalApp": {
+    "serviceProviderSigit": {
+      "home": {
+        "title": "Service Provider Sigits",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Service Provider Sigits encontrado"
+      },
+      "detail": {
+        "title": "Service Provider Sigit"
+      },
+      "id": "ID",
+      "name": "Name",
+      "codigo": "Codigo",
+      "lastSync": "Last Sync",
+      "userGroup": "",
+      "serviceProviderGroup": ""
+    }
+  }
+}

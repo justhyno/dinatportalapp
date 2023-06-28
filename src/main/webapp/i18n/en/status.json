@@ -1,0 +1,18 @@
+{
+  "dinatportalApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Statuses found"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "id": "ID",
+      "name": "Name",
+      "entity": "Entity",
+      "exists": "Exists"
+    }
+  }
+}

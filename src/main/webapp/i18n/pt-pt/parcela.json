@@ -1,0 +1,26 @@
+{
+  "dinatportalApp": {
+    "parcela": {
+      "home": {
+        "title": "Parcelas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Parcela",
+        "createOrEditLabel": "Criar ou editar Parcela",
+        "notFound": "Nenhum Parcelas encontrado"
+      },
+      "created": "Um novo Parcela foi criado com o identificador {{ param }}",
+      "updated": "Parcela com identificador {{ param }} foi actualizado",
+      "deleted": "Parcela com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Parcela {{ id }}?"
+      },
+      "detail": {
+        "title": "Parcela"
+      },
+      "id": "ID",
+      "name": "Name",
+      "bloco": "",
+      "titular": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dinatportalApp": {
+    "bloco": {
+      "home": {
+        "title": "Blocos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Bloco",
+        "createOrEditLabel": "Criar ou editar Bloco",
+        "notFound": "Nenhum Blocos encontrado"
+      },
+      "created": "Um novo Bloco foi criado com o identificador {{ param }}",
+      "updated": "Bloco com identificador {{ param }} foi actualizado",
+      "deleted": "Bloco com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Bloco {{ id }}?"
+      },
+      "detail": {
+        "title": "Bloco"
+      },
+      "id": "ID",
+      "code": "Code",
+      "projectRduat": "",
+      "parcela": ""
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "changelogDate": "20201117130737",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "no",
+  "enableEntityAudit": false,
+  "entityTableName": "validation_stats",
+  "fields": [
+    {
+      "fieldName": "valid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "invalid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "doubled",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ValidationStats",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

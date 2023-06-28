@@ -1,0 +1,50 @@
+{
+  "changelogDate": "20220809104504",
+  "clientRootFolder": "",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "enableEntityAudit": true,
+  "entityTableName": "bloco_rduat",
+  "fields": [
+    {
+      "fieldName": "codigo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "3",
+      "fieldValidateRulesMinlength": "1"
+    },
+    {
+      "fieldName": "pointX",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "pointY",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "vertexIndex",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "zone",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BlocoRduat",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "projectRduat",
+      "otherEntityRelationshipName": "blocoRduat",
+      "relationshipName": "projectRduat",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

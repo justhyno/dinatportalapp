@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "userExtra": {
+      "home": {
+        "title": "User Extras",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) User Extra",
+        "createOrEditLabel": "Criar ou editar User Extra",
+        "notFound": "Nenhum User Extras encontrado"
+      },
+      "created": "Um novo User Extra foi criado com o identificador {{ param }}",
+      "updated": "User Extra com identificador {{ param }} foi actualizado",
+      "deleted": "User Extra com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) User Extra {{ id }}?"
+      },
+      "detail": {
+        "title": "User Extra"
+      },
+      "phone": "Phone",
+      "user": "",
+      "userGroup": ""
+    }
+  }
+}

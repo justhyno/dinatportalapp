@@ -1,0 +1,30 @@
+{
+  "dinatportalApp": {
+    "agent": {
+      "home": {
+        "title": "Agents",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Agent",
+        "createOrEditLabel": "Criar ou editar Agent",
+        "notFound": "Nenhum Agents encontrado"
+      },
+      "created": "Um novo Agent foi criado com o identificador {{ param }}",
+      "updated": "Agent com identificador {{ param }} foi actualizado",
+      "deleted": "Agent com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Agent {{ id }}?"
+      },
+      "detail": {
+        "title": "Agent"
+      },
+      "id": "ID",
+      "name": "Name",
+      "url": "Url",
+      "port": "Port",
+      "description": "Description",
+      "lastSync": "Last Sync",
+      "status": "Status",
+      "partition": ""
+    }
+  }
+}

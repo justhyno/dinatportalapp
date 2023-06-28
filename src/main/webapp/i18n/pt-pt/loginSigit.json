@@ -1,0 +1,19 @@
+{
+  "dinatportalApp": {
+    "loginSigit": {
+      "home": {
+        "title": "Login Sigits",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Login Sigits encontrado"
+      },
+      "detail": {
+        "title": "Login Sigit"
+      },
+      "id": "ID",
+      "username": "Username",
+      "password": "Password",
+      "status": "Status",
+      "success": "Success"
+    }
+  }
+}

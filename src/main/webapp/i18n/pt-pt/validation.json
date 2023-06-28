@@ -1,0 +1,22 @@
+{
+  "dinatportalApp": {
+    "validation": {
+      "home": {
+        "title": "Validations",
+        "refreshListLabel": "Refresh list",
+        "notFound": "Nenhum Validations encontrado"
+      },
+      "detail": {
+        "title": "Validation"
+      },
+      "id": "ID",
+      "alphanumerical": "Alphanumerical",
+      "geospatial": "Geospatial",
+      "status": "Status",
+      "parcela": "Parcela",
+      "bloco": "Bloco",
+      "projectRduat": "",
+      "submission": ""
+    }
+  }
+}

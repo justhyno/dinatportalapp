@@ -1,0 +1,20 @@
+{
+  "dinatportalApp": {
+    "dataError": {
+      "home": {
+        "title": "Data Errors",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Data Errors found"
+      },
+      "detail": {
+        "title": "Data Error"
+      },
+      "id": "ID",
+      "name": "Name",
+      "descricao": "Descricao",
+      "tipo": "Tipo",
+      "estado": "Estado",
+      "projectRduat": ""
+    }
+  }
+}

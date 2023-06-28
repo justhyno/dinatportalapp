@@ -1,0 +1,23 @@
+{
+  "dinatportalApp": {
+    "geometryData": {
+      "home": {
+        "title": "Geometry Data",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Geometry Data found"
+      },
+      "detail": {
+        "title": "Geometry Data"
+      },
+      "id": "ID",
+      "label": "Label",
+      "type": "Type",
+      "fromSigit": "From Sigit",
+      "sync": "Sync",
+      "archived": "Archived",
+      "crs": "Crs",
+      "feature": "Feature",
+      "projectRduat": ""
+    }
+  }
+}

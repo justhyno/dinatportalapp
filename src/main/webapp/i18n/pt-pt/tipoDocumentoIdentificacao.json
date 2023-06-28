@@ -1,0 +1,25 @@
+{
+  "dinatportalApp": {
+    "tipoDocumentoIdentificacao": {
+      "home": {
+        "title": "Tipo Documento Identificacaos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tipo Documento Identificacao",
+        "createOrEditLabel": "Criar ou editar Tipo Documento Identificacao",
+        "notFound": "Nenhum Tipo Documento Identificacaos encontrado"
+      },
+      "created": "Um novo Tipo Documento Identificacao foi criado com o identificador {{ param }}",
+      "updated": "Tipo Documento Identificacao com identificador {{ param }} foi actualizado",
+      "deleted": "Tipo Documento Identificacao com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tipo Documento Identificacao {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Documento Identificacao"
+      },
+      "id": "ID",
+      "designacao": "Designacao",
+      "sigla": "Sigla"
+    }
+  }
+}
